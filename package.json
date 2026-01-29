@@ -12,6 +12,8 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "dotenv": "^17.2.3",
+    "ethers": "^6.16.0",
     "fast-json-stable-stringify": "^2.1.0",
     "zod": "^4.3.6"
   },
