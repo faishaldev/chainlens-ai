@@ -1,4 +1,4 @@
-# ChainGuard AI — Web3 Wallet Intelligence Agent
+# ChaineLens AI — Web3 Wallet Intelligence Agent
 
 > A deterministic, verifiable agent that acts as a "Check Engine Light" for your crypto wallet.
 
@@ -11,7 +11,7 @@ Blockchain transaction data is **noisy, technical, and hard to interpret**.
 - Existing explorers (Etherscan) show *raw data*, not *insights*.
 - Safety risks (anomalous values, high gas) often go unnoticed until it's too late.
 
-**ChainGuard AI** solves this by converting raw on-chain data into clear, human-readable insights with anomaly detection.
+**ChaineLens AI** solves this by converting raw on-chain data into clear, human-readable insights with anomaly detection.
 
 ## 2. Architecture
 
@@ -19,7 +19,7 @@ The agent operates as a standalone TypeScript library that connects to public RP
 
 ```mermaid
 graph TD
-    User[User / CLI] -->|Provides Tx Hash| Agent[ChainGuard Agent]
+    User[User / CLI] -->|Provides Tx Hash| Agent[ChaineLens Agent]
     
     subgraph "Data Layer"
         Agent -->|Fetch Tx| RPC["Public RPC (Infura/Llama)"]
