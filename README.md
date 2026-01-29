@@ -22,7 +22,7 @@ graph TD
     User[User / CLI] -->|Provides Tx Hash| Agent[ChainGuard Agent]
     
     subgraph "Data Layer"
-        Agent -->|Fetch Tx| RPC[Public RPC (Infura/Llama)]
+        Agent -->|Fetch Tx| RPC["Public RPC (Infura/Llama)"]
         RPC -->|Raw Data| Agent
     end
     
